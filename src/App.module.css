@@ -1,0 +1,17 @@
+.App {
+  --button-background: #009688;
+  --button-hover: #00796B;
+  --background: #ffffff;
+  --navbar-background: #F5F5F5;
+  --results-background: #ffffff;
+  --navbar-border: #EEEEEE;
+  --logo-color: #000000;
+  --text-color: #000000;
+
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  background-color: var(--background);
+  transition: background-color 0.2s ease-in 0.4s;
+}

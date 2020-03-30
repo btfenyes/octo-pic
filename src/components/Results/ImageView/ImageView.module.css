@@ -1,0 +1,21 @@
+.ImageView {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.ImageView img {
+  max-width: 380px;
+  max-height: 380px;
+}
+.Data {
+  width: 100%;
+  text-align: end;
+}
+
+@media(min-width: 600px) {
+  .ImageView img {
+    max-width: 580px;
+    max-height: 580px;
+  }
+}

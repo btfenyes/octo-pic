@@ -1,0 +1,15 @@
+@import '../../App.module.css';
+
+.Logo {
+  text-align: center;
+  padding: 0.4em;
+  cursor: pointer;
+}
+
+.LogoText {
+  height: 32px;
+  margin: 0;
+  padding: 0;
+  color: var(--logo-color);
+  transition: color 0.2s ease 0.4s;
+}

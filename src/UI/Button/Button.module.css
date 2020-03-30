@@ -1,0 +1,15 @@
+@import '../../App.module.css';
+
+.Button {
+  margin: 0.2em 0.2em;
+  cursor: pointer;
+  border: none;
+  background-color: var(--button-background);
+  color: #fff;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.Button:hover{  
+  background-color: var(--button-hover);
+}

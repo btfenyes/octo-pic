@@ -1,0 +1,7 @@
+@import '../../App.module.css';
+
+.Error {
+  color: var(--text-color);
+  text-align: center;
+  transition: color 0.2s ease 0.4s;
+}

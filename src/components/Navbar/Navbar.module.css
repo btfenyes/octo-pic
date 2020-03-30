@@ -1,0 +1,16 @@
+@import '../../App.module.css';
+
+.Navbar {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: sticky;
+  position: -webkit-sticky;
+  background-color: var(--navbar-background);
+  /* transition: background-color 0.4s ease-in 0.4s; */
+  /* box-shadow: 4px 0 8px 4px #9E9E9E; */
+  border-bottom: 1px solid var(--navbar-border);
+  transition: all 0.2s ease-in 0.4s;
+  display: flex;
+  justify-content: space-evenly;
+}

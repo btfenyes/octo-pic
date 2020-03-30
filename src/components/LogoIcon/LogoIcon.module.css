@@ -1,0 +1,15 @@
+@import '../../App.module.css';
+
+.LogoIcon {
+  cursor: pointer;
+  margin: 0 0.4em;
+}
+
+.LogoIcon path {
+  fill: var(--button-background);
+  transition: fill 0.2s ease-in;
+}
+
+.LogoIcon:hover path {
+  fill: var(--button-hover);
+}

@@ -1,0 +1,23 @@
+@import '../../App.module.css';
+
+.Modal {
+  position: fixed;
+  z-index: 500;
+  background-color: var(--background);
+  color: var(--logo-color);
+  width: 380px;
+  border: 1px solid var(--navbar-border);
+  padding: 16px;
+  left: calc(50% - 190px);
+  top: 5%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+}
+
+@media(min-width: 600px) {
+  .Modal {
+    width: 580px;
+    left: calc(50% - 190px);
+    top: 15%;
+  }
+}

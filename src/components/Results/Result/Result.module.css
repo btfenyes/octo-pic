@@ -1,0 +1,9 @@
+.Result {
+  text-align: center;
+  align-self: center;
+  cursor: pointer;
+}
+.Result img {
+  max-height: 270px;
+  max-width: 300px;
+}
