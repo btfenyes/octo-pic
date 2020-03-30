@@ -5,7 +5,6 @@ import axios from 'axios';
 import styles from './ResultsContainer.module.css';
 import Navbar from '../../components/Navbar/Navbar';
 import Results from '../../components/Results/Results';
-import Spinner from '../../UI/Spinner/Spinner'; 
 import Error from '../../components/Error/Error';
 
 const useQuery = () => {

@@ -57,7 +57,7 @@ const SearchInput = props => {
       </div>   
       <form>
       <div className={styles.InputContainer}>        
-        <Input change={onInputChange} value={query} />
+        <Input change={onInputChange} value={query} placeholder="Search" />
         <Button type="submit" style={buttonStyle} click={onButtonClick}><SearchIcon /></Button>
       </div>
       </form> 
