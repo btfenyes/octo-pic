@@ -1,0 +1,8 @@
+@import '../../App.module.css';
+
+.NoResult {
+  text-align: center;
+  font-size: 1.4em;
+  color: var(--logo-color);
+  transition: color 0.2s ease-in 0.4s;
+}

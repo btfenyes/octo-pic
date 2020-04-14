@@ -6,6 +6,7 @@ import styles from './ResultsContainer.module.css';
 import Navbar from '../../components/Navbar/Navbar';
 import Results from '../../components/Results/Results';
 import Error from '../../components/Error/Error';
+import NoResult from '../../components/NoResult/NoResult';
 
 const useQuery = () => {
   return new URLSearchParams(useLocation().search);
@@ -61,11 +62,13 @@ const ResultsContainer = () => {
   };
 
   let imageGrid = null;  
-  if(images){
+  if(images.length > 0 || loading){
     imageGrid = <Results images={images} loadMore={onLoadMore} loading={loading} />;
+  } else if(query !== '') {
+    imageGrid = <NoResult query={query} />
   }
   if(error){
-    imageGrid = <Error/>
+    imageGrid = <Error/>;
   }
   return (
     <div className={styles.ResultsContainer}>

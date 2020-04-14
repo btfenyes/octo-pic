@@ -39,9 +39,9 @@ const Results = props => {
   }
 
   if(props.loading){
-    viewMoreBtn = <Spinner />
+    viewMoreBtn = <Spinner />;
   }
-  
+
   return (
     <Fragment>
       <div className={styles.Results}>
